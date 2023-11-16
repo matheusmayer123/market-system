@@ -1,0 +1,27 @@
+
+body{
+    overflow: hidden;
+    margin-top: -6px;
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: hsl(96, 51%, 71%);;
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsl(96, 30%, 71%), hsl(96, 56%, 71%),  hsl(96, 65%, 71%), hsl(96, 90%, 71%));
+    
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+
+}

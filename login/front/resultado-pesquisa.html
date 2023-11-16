@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Security-Policy"
+        content="script-src * data: https://ssl.gstatic.com 'unsafe-inline' 'unsafe-eval';">
+    <link rel="stylesheet" href="resultado-pesquisa.css">
+    <title>Resultado</title>
+</head>
+
+<body>
+    <nav>
+
+    </nav>
+
+    
+
+
+    <div class="d-flex justify-content-center">
+        <div class="card text-bg-secondary " style="width: 30rem;">
+            <div class="row align-items-start">
+                <div class="card-body d-flex justify-content-center">
+                    <div class="col-sm-10 d-block" style="width: 27rem;">
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn-close" aria-label="Close" onclick="voltar()"></button>
+                        </div>
+                        <div class="text-center mt-1 mb-1">
+                            <h2>Produto:</h2>
+                        </div>
+                        <b>
+                            <p>
+                                Nome
+                            </p>
+                        </b>
+                        <div class="col-sm-12 mb-3">
+                            <input type="email" class="form-control" id="novo-nome-prod">
+                        </div>
+
+                        <b>
+                            <p>
+                                Preço
+                            </p>
+                        </b>
+                        <div class="col-sm-12 mb-3">
+                            <input type="email" class="form-control" id="preco-prod">
+                        </div>
+
+                        <b>
+                            <p>
+                                Data de Validade
+                            </p>
+                        </b>
+                        <div class="col-sm-12 mb-3">
+                            <input type="email" class="form-control" id="data-validade">
+                        </div>
+
+                        <b>
+                            <p>
+                                Quantidade
+                            </p>
+                        </b>
+                        <div class="col-sm-12 mb-3">
+                            <input type="email" class="form-control" id="quantidade-prod">
+                        </div>
+
+                        <b>
+                            <p>
+                                Lote
+                            </p>
+                        </b>
+                        <div class="col-sm-12 mb-3">
+                            <input type="email" class="form-control" id="lote-prod">
+                        </div>
+
+                        <b>
+                            <p>
+                                Observações
+                            </p>
+                        </b>
+                        <div class="col-sm-12 mb-3">
+                            <input type="email" class="form-control" id="obs-prod">
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-3">
+                            <button type="button" class="btn btn-warning" id="botao-atualizar">Atualizar</button>
+                            <button type="button" class="btn btn-danger"  id="botao-excluir">Excluir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+<script>
+    function voltar() {
+        window.location.href = "pesquisar.html";
+    }
+</script>
+
+</html>
